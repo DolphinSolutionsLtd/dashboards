@@ -1,6 +1,7 @@
 Create a dashboard.sh file:
 
 sudo nano /home/pi/dashboard.sh
+
 Save this script to the file:
 
 #!/bin/bash
@@ -31,3 +32,11 @@ sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/Dolphin/.config/chr
   --noerrdialogs \
   --disable-infobars \
   $(curl -s "https://raw.githubusercontent.com/${ORG}/${REPO}/${BRANCH}/${DASHBOARD}") &
+
+
+Make this script executable by anyone:
+
+sudo chmod a+x /home/pi/dashboard.sh
+Try it out!
+
+/home/pi/dashboard.sh
