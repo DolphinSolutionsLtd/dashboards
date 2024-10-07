@@ -36,7 +36,8 @@ sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/Dolphin/.config/chr
 
 Make this script executable by anyone:
 
-sudo chmod a+x /home/pi/dashboard.sh
-Try it out!
+sudo chmod a+x /home/Dolphin/dashboard.sh
 
-/home/pi/dashboard.sh
+To run from Terminal:
+
+/home/Dolphin/dashboard.sh
