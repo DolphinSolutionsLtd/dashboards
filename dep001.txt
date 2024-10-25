@@ -1,6 +1,7 @@
+https://app.gogrow.com/dashboard/147644?shareToken=b9abf8435e725b779a8168c4ee94b3fd
 https://app.gogrow.com/dashboard/148020?shareToken=3158daa35a01f22a194fc71ee6baf9ed
 https://app.gogrow.com/dashboard/share/bb143808b27436011e2d73d656027357
 https://app.gogrow.com/dashboard/share/86b8eafc052917eae0f89ba56082c066
 https://app.gogrow.com/dashboard/share/de8aa51798d0734f6ad23e37062bd2bc
-https://app-eu1.hubspot.com/reports-dashboard/25526707/view/106239738
-https://zoom.earth/maps/satellite/#view=51.507,-0.128,6z/date=2024-10-04,14:30,+1/overlays=radar,wind,heat,fires
+
+
