@@ -4,8 +4,5 @@ https://app.gogrow.com/dashboard/150426?shareToken=5302371ca1273247e53cc36d36eb7
 https://app.gogrow.com/dashboard/150378?shareToken=3be1f1b4767b74965bc2865b41778711
 https://app.gogrow.com/dashboard/150005?shareToken=842da6d4d02ec57d7c3f16a76120f881
 https://home.google.com/home/1-f5b067778dbc6956a3845180adba829c43aabf073d6022d0436a8b0c6cbca74e/cameras/grid
-https://home.google.com/home/1-f5b067778dbc6956a3845180adba829c43aabf073d6022d0436a8b0c6cbca74e/cameras/list/1-7fada6654372229c3b79d77b321977f76ee8818b002f30a3515f2f6664dab60a
-https://home.google.com/home/1-f5b067778dbc6956a3845180adba829c43aabf073d6022d0436a8b0c6cbca74e/cameras/list/1-3b416a7f2d53f5302cb5297e501650e2ed583ad73698a38fe2b68c38d0d10af1
-
 
 
