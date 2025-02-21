@@ -1,8 +1,6 @@
-Create a .txt file with a list of Grow dashboards URL's for the host Pi
-Name it accordingly
+Create a .txt file with a list of Grow dashboards URL's for the host Pi and name it accordingly
 
 Upload to Git
-
 
 Create a dashboard.sh file:
 
@@ -11,7 +9,6 @@ Open a terminal
 sudo mdir Dolphin # create in terminal in home folder #
 
 sudo nano /home/Dolphin/dashboard.sh
-
 
 Save this script to the file:
 
