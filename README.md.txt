@@ -48,7 +48,7 @@ unclutter -idle 0.5 -root &
  
 # trick Chromium into believing it shut down successfully last time
 
-sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' /home/admin/Dolphin/dashboard.sh/home/admin/Dolphin/.config/chromium/Default/Preferences
+sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' /home/admin/Dolphin/.config/chromium/Default/Preferences
 
 sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/admin/Dolphin/.config/chromium/Default/Preferences
  
