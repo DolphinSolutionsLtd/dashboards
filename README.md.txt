@@ -12,7 +12,7 @@ ect ## Get Grow Dashboard URL's. Ensure they are in the below format:
  
 sudo mkdir Dolphin
 
-## Close and reopen the terminla. Ensure you are in root to create a folder for the dashboard.sh file
+## Close and reopen the terminal. Ensure you are in root to create a folder for the dashboard.sh file
  
 ## Create the dashboard.sh file
  
