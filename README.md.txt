@@ -14,7 +14,7 @@ sudo mkdir Dolphin
  
 ## Create the dashboard.sh file
  
-sudo nano /home/admin/Dolphin/dashboard.sh
+sudo nano /home/Dolphin/dashboard.sh
  
 ## Save the script below (everything between the "line breaks") to the file:
  
@@ -42,8 +42,8 @@ unclutter -idle 0.5 -root &
  
 # trick Chromium into believing it shut down successfully last time
 
-sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' /home/admin/Dolphin/.config/chromium/Default/Preferences
-sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/admin/Dolphin/.config/chromium/Default/Preferences
+sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' /home/Dolphin/.config/chromium/Default/Preferences
+sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/Dolphin/.config/chromium/Default/Preferences
  
 # Launch Chromium 
 
@@ -60,7 +60,7 @@ sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/admin/Dolphin/.conf
  
 ## Make this script executable by anyone:
  
-sudo chmod a+x /home/admin/Dolphin/dashboard.sh
+sudo chmod a+x /home/Dolphin/dashboard.sh
  
 ## Go to Google extensions and install TabCarousel. Set to AutoStart and set delay to 30000
 ## To run from the Terminal:
