@@ -1,4 +1,4 @@
-## Get Grow Dashboard URL's. Ensure they are in the below format:
+ect ## Get Grow Dashboard URL's. Ensure they are in the below format:
 ## https://app.gogrow.com/dashboard/share/c57cff6a529a23c023f54fe6ab060e16 (must NOT have the words "share token" in the URL)
 ## Create a .txt file with a list of Grow dashboards URL's for the host Pi on your PC
 ## Name it accordingly
@@ -8,9 +8,11 @@
 ## https://app.gogrow.com/dashboard/share/c57cff6a529a23c023f54fe6ab060e16 - MSI's
 ## Connect to the respective Pi using Pi Connect - https://connect.raspberrypi.com/devices - PW in Dashlane
 ## UN : rpiconnectsvcaccount@dolphinsolutions.co.uk - PW in Dashlane
-## Open a terminal to create a folder for the dashboard.sh file
+## Select home folder and open a terminal to create a folder for the dashboard.sh file
  
 sudo mkdir Dolphin
+
+## Close and reopen the terminla. Ensure you are in root to create a folder for the dashboard.sh file
  
 ## Create the dashboard.sh file
  
