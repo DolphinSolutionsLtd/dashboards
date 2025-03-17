@@ -62,7 +62,7 @@ sudo chmod a+x /home/Dolphin/dashboard.sh
 ## Go to Google extensions and install TabCarousel. Set to AutoStart and set delay to 30000
 ## To run from the Terminal:
  
-/home/admin/Dolphin/dashboard.sh
+/home/Dolphin/dashboard.sh
  
 
  
