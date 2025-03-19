@@ -1,27 +1,3 @@
-ect ## Get Grow Dashboard URL's. Ensure they are in the below format:
-## https://app.gogrow.com/dashboard/share/c57cff6a529a23c023f54fe6ab060e16 (must NOT have the words "share token" in the URL)
-## Create a .txt file with a list of Grow dashboards URL's for the host Pi on your PC
-## Name it accordingly
-## Upload .txt file to Git - https://github.com/login
-## UN : rpiconnectsvcaccount@dolphinsolutions.co.uk - PW in Dashlane
-## Add any new approved dashboard URL's to the MASTER DASHBOARD LIST.txt file with the name of the dashboard at the end as below:
-## https://app.gogrow.com/dashboard/share/c57cff6a529a23c023f54fe6ab060e16 - MSI's
-## Connect to the respective Pi using Pi Connect - https://connect.raspberrypi.com/devices - PW in Dashlane
-## UN : rpiconnectsvcaccount@dolphinsolutions.co.uk - PW in Dashlane
-## Select home folder and open a terminal to create a folder for the dashboard.sh file
- 
-sudo mkdir Dolphin
-
-## Close and reopen the terminal. Ensure you are in root to create a folder for the dashboard.sh file
- 
-## Create the dashboard.sh file
- 
-sudo nano /home/Dolphin/dashboard.sh
- 
-## Save the script below (everything between the "line breaks") to the file:
- 
--------------------------------------------------------------------------------------------------------------
- 
 #!/bin/bash
 
 # config options
@@ -50,19 +26,3 @@ sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/Dolphin/.config/chr
   --noerrdialogs \
   --disable-infobars \
   $(curl -s "https://raw.githubusercontent.com/${ORG}/${REPO}/${BRANCH}/${DASHBOARD}") &
-
- 
----------------------------------------------------------------------------------------------------------------
- 
- 
-## Make this script executable by anyone:
- 
-sudo chmod a+x /home/Dolphin/dashboard.sh
- 
-## Go to Google extensions and install TabCarousel. Set to AutoStart and set delay to 30000
-## To run from the Terminal:
- 
-/home/Dolphin/dashboard.sh
- 
-
- 
