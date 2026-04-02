@@ -13,3 +13,4 @@ https://app.gogrow.com/dashboard/share/0bc809494ff7a7c78c55ed1c87273c0f - Job OT
 https://app.gogrow.com/dashboard/share/68fe7dcd601eeab3b8e353680c8bd0aa - Supply Chain KPIs
 https://app.gogrow.com/dashboard/share/1c6fc811f37b2a07b2a22fd18e93b8cb - Operation Goldmine
 https://app.gogrow.com/dashboard/share/5467694217ce0404cfa34f5675b8bf84 - 2026 Q1 Progress
+https://app.gogrow.com/dashboard/share/976cb393c5d5d749e13c8b8901b9bb0f - 2026 Q2 Progress
